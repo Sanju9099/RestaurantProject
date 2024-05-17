@@ -1,13 +1,13 @@
 import { Fragment } from 'react';
 import mealsImage from '../../Components/Assets/Meals.jpg';
-import classes from './Header.module.css'
+import classes from './Header.module.css';
 import HeaderCartButton from './HeaderCartButton';
 
 const Header = props => {
     return(
         <Fragment>
             <header className={classes.header}>
-                <h1>RaectMeal</h1>
+                <h1> RaectMeal </h1>
                 <HeaderCartButton />
             </header>
             <div className={classes['main-image']}>
@@ -18,5 +18,7 @@ const Header = props => {
 }
 
 export default Header;
+
+
 
 
